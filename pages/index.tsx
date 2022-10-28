@@ -3,11 +3,13 @@ import {
   useActiveListings,
   useContract,
   MediaRenderer,
+  useAddress,
 } from "@thirdweb-dev/react";
 import { ListingType } from "@thirdweb-dev/sdk";
 import { BanknotesIcon, ClockIcon } from "@heroicons/react/24/outline";
 
 const Home = () => {
+
   const { contract } = useContract(
     process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT,
     "marketplace"

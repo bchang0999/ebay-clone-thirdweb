@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
   BellIcon,
   ChevronDownIcon,
-  MagnifyingGlassCircleIcon,
   MagnifyingGlassIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
