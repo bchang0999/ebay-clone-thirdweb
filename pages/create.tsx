@@ -145,7 +145,7 @@ function Create({}: Props) {
                 src={nft.metadata.image}
               />
               <p className="text-lg truncate font-bold">{nft.metadata.name}</p>
-              <p className=" text-xs truncate">{nft.metadata.description}</p>
+              {/* <p className=" text-xs truncate">{nft.metadata.description}</p> */}
             </div>
           ))}
         </div>
